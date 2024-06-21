@@ -286,7 +286,7 @@ sub call_varscan {
 			"$path/QC_Bam/Bam/$sample\_sort_dedup.mpileup ";
         my $cmd2 = "$samtools mpileup ".
 			"-d 0 ".
-			"-A -B -x ".
+			"-A -B ".
 			"-f $ref ".
 			"-l $target_bed ".
 			"$path/QC_Bam/Bam/$sample\_sort.bam > ".
