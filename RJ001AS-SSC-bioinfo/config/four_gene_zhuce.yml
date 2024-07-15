@@ -1,0 +1,32 @@
+java: /data01/software/jdk1.8.0_301/bin/java
+perl: /usr/bin/perl
+python2:  /data01/software/miniconda3/envs/py2/bin/python
+python3:  /data01/home/zhangxi/soft/bin/python3
+fastqc: /data01/software/FastQC-v0.11.9/fastqc
+trimmomatic:  /data01/software/Trimmomatic-0.39/trimmomatic-0.39.jar
+reseqtools: /data01/software/Reseqtools/iTools_Code/bin/ReSeqTools
+bwa:  /data01/software/miniconda3/envs/py2/bin/bwa
+picard: /data01/software/miniconda3/envs/py2/share/picard-2.26.5-0/picard.jar
+GATK3:  /data01/software/GATK3/GenomeAnalysisTK.jar
+GATK4:  /data01/software/miniconda3/envs/py2/bin/gatk
+varscan:  /data01/software/VarScan-v2.4.2/VarScan.v2.4.2.jar
+samtools: /data01/software/miniconda3/envs/py2/bin/samtools
+bedtools: /data01/software/miniconda3/envs/py2/bin/bedtools
+snakemake:  /data01/home/zhangxi/soft/bin/snakemake
+#############database###########################################
+DNA:
+  adapters_path:  /data01/database/adapters_path/RNA_fusion.fa
+  bed:  /data01/home/robot02/zhuce_6gene/DNA/bed/DNA_Hotspot_sequence_V1.3_short.bed
+  target_bed: /data01/home/robot02/zhuce_6gene/DNA/bed/DNA_Hotspot_target_V1.3_short.bed
+  ref:  /data01/database/reference/hg19/hg19.fa
+  zc_hotspots: /data01/home/zhangxi/projects/01.four_gene/zc_hotspots_v1.2.txt
+  canonical:  /data01/database/canonical/whole_ID_Canonical.txt
+  hotspots: /data01/home/robot02/zhuce_6gene/DNA/database/hotspots_simple.txt
+  black_list: /data01/home/robot02/zhuce_6gene/DNA/database/thyroid_amp_v1.4_black.list
+
+#############RNA database###########################################
+RNA:
+  adapters_path:  /data01/database/adapters_path/RNA_fusion.fa
+  bed:  /data01/home/robot02/zhuce_6gene/RNA/bed/fusion_ZC_new_v1.bed
+  ref:  /data01/home/robot02/zhuce_6gene/RNA/database/fusion_ZC_new_v1.fasta
+  fusion_anno_txt:  /data01/home/robot02/zhuce_6gene/RNA/database/fusion_ZC_new_anno_v1.txt
