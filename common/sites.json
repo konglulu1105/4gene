@@ -1,0 +1,72 @@
+{
+    "SNV": [
+        {
+            "Chr": "chr7",
+            "Position_Start": "140453136",
+            "Position_End": "140453136",
+            "Reference": "A",
+            "Mutation": "T",
+            "Gene": "BRAF",
+            "HGVSc": "NM_004333.4:c.1799T>A",
+            "HGVSp": "NP_004324.2:p.V600E",
+            "Exon": "EXON15/18",
+            "Mutation_Type": "missense_variant",
+            "dbsnp": "rs113488022",
+            "cosmic": "COSM476"
+        },
+        {
+            "Chr": "chr5",
+            "Position_Start": "1295228",
+            "Position_End": "1295228",
+            "Reference": "G",
+            "Mutation": "A",
+            "Gene": "TERT",
+            "HGVSc": "NM_198253.2:c.-124C>T(C228T)",
+            "HGVSp": "-",
+            "Exon": "Promoter",
+            "Mutation_Type": "upstream_gene_variant",
+            "dbsnp": ".",
+            "cosmic": "COSM1716559"
+        },
+        {
+            "Chr": "chr5",
+            "Position_Start": "1295250",
+            "Position_End": "1295250",
+            "Reference": "G",
+            "Mutation": "A",
+            "Gene": "TERT",
+            "HGVSc": "NM_198253.2:c.-146C>T(C250T)",
+            "HGVSp": "-",
+            "Exon": "Promoter",
+            "Mutation_Type": "upstream_gene_variant",
+            "dbsnp": ".",
+            "cosmic": "COSM1716558"
+        }
+    ],
+    "FUSION": [
+        {
+            "Fusion_id": "ETV6-NTRK3_E4-N14",
+            "Gene": "ETV6-NTRK3",
+            "Transcript_1": "NM_001987.5",
+            "Transcript_2": "NM_002530.4",
+            "Exon_Rank_1": "exon4",
+            "Exon_Rank_2": "exon14"
+        },
+        {
+            "Fusion_id": "CCDC6-RET_C1-R12",
+            "Gene": "CCDC6-RET",
+            "Transcript_1": "NM_005436.5",
+            "Transcript_2": "NM_020975.6",
+            "Exon_Rank_1": "exon1",
+            "Exon_Rank_2": "exon12"
+        },
+        {
+            "Fusion_id": "NCOA4-RET_N8-R12",
+            "Gene": "NCOA4-RET",
+            "Transcript_1": "NM_001145261.1",
+            "Transcript_2": "NM_020975.6",
+            "Exon_Rank_1": "exon8",
+            "Exon_Rank_2": "exon12"
+        }
+    ]
+}
