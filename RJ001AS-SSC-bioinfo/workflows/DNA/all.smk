@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-sample_name_list = pd.read_csv(config["sample_list_file"], sep = '\t', header = 0)['sample_name']
+sample_name_list = pd.read_csv(config["sample_list_file"], sep = '\t', header = 0)['sample_name']#通过字典访问配置文件
 out_dir = config["out_dir"]
 base_path = config["base_path"]
 python3 = config["python3"]
